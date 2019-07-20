@@ -1,8 +1,23 @@
+/* element selectors */
+
 h1 {
     color: red;
     font-size: 50px;
 }
 
-img {
-    background-color: bisque;
+/* img {
+    background-color: green;
+} */
+
+
+/* class selectors */
+
+.bacon {
+    background-color: green;
+    width: 150px;
+}
+
+.broccoli {
+    background-color: red;
+    width: 150px;
 }
