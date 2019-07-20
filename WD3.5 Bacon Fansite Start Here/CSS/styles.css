@@ -1,13 +1,13 @@
-/* element selectors */
+/* tag selectors */
 
 h1 {
     color: red;
     font-size: 50px;
 }
 
-/* img {
-    background-color: green;
-} */
+img:hover {
+    background-color: gold;
+}
 
 
 /* class selectors */
@@ -21,3 +21,25 @@ h1 {
     background-color: red;
     width: 150px;
 }
+
+.circular {
+    border-radius: 100%;
+}
+
+/* id selectors */
+
+#heading {
+    color: blue;
+}
+
+/* 
+
+order of priority = tag/type, class, ID, !Important 
+only one instance of ID allowed
+only one ID per element allowed
+use class when there are a number of related elements
+elements can have more than one class
+try not to use !Important!!!
+pseudo classes (eg :hover)
+
+*/
