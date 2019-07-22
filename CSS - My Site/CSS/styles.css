@@ -3,6 +3,26 @@ body, h1 {
     margin: 0px;
 }
 
-div {
+.top-container {
     background-color: #e4f9f5;
+    border: 10px solid;
+    height: 200px;
+    padding: 20px;
+    width: 200px;
+}
+
+.middle-container {
+    background-color: #30e3ca;
+    border: 20px solid;
+    height: 200px;
+    margin-left: 260px;
+    width: 200px;
+}
+
+.bottom-container {
+    background-color: #40514e;
+    border: 10px solid;
+    height: 200px;
+    margin-left: 500px;
+    width: 200px;
 }
